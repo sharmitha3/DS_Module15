@@ -4,12 +4,13 @@
 To write a C function to delete an element in a Heap Tree.
 
 ## Algorithm
+```
 1. Read 'n' elements and insert each into the array while maintaining Max-Heap property using heapify.
 2.To insert an element, place it at the end and heapify from bottom-up to restore heap.
 3.Read the element to delete; search its index in the heap.
 4.Swap it with the last element, reduce heap size, and heapify to maintain Max-Heap.
 5.Print the final array after deletion.  
-
+```
 ## Program:
 ```
 /*
