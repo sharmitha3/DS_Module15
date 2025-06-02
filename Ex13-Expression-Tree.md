@@ -4,6 +4,7 @@
 To write a C function to construct an Expression Tree for the given Postfix Expression and display the output in the format of In-order ,Pre-order and Post-order traversal.
 
 ## Algorithm
+```
 1. Read the postfix expression as input.
 2.For each symbol in the postfix expression:
       i)If it’s an operand, create a node and push it onto a stack.
@@ -11,7 +12,7 @@ To write a C function to construct an Expression Tree for the given Postfix Expr
 3.After processing all characters, the expression tree root will be at the top of the stack.
 4.Traverse and print the tree in in-order, pre-order, and post-order forms.
 5.Display each traversal on a new line.   
-
+```
 ## Program:
 ```
 /*
