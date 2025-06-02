@@ -4,12 +4,13 @@
 To write a C function to insert the elements in the binary search tree
 
 ## Algorithm
+```
 1. If the current node is NULL, create and return a new node with the given key.
 2.If the key is less than the current node's key, recursively insert into the left subtree.
 3.If the key is greater than the current node's key, recursively insert into the right subtree.
 4.Do not insert duplicates (if key equals node's key, do nothing).
 5.Return the current node after insertion to maintain the BST structure.
-
+```
 ## Program:
 ```
 /*
